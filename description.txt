@@ -1,0 +1,22 @@
+Let's say that each minute we are going to send a GET request to get an update if the total announcemount count has changed
+once this is a hit
+
+we sort the list and take the first elemnt -> the newest listing
+23--------------------------
+
+
+
+
+extract " alle announcer (n)"
+
+remember n from first request
+
+request one minute later
+
+check if n matches,
+if it does
+nothing new
+if there is a n+1 then there is a new new item
+
+do diff = new_n - old_n = 8-6 = 2 new listings
+sort and send them
